@@ -1,8 +1,8 @@
 @extends('layouts.main')
 @section('content')
 
-@push('navbar')
-    index
+@push('nav')
+@include('includes.indexnav')
 @endpush
 @include('includes.header')
 @include('includes.main-banner')
@@ -13,4 +13,3 @@
 @include('includes.social-area')
 @include('includes.subscripe-area')
 @endsection
-   

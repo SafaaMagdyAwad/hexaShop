@@ -1,8 +1,8 @@
 @extends('layouts.main')
 @section('content')
 
-@push('navbar')
-    page
+@push('nav')
+@include('includes.pagesnav')
 @endpush
 @include('includes.header')
 @include('includes.main-banner')
