@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\Employee;
 use App\Models\JobData;
+use App\Models\Product;
 use App\Models\SocialLink;
 use App\Models\Subscribe;
 use App\Models\User;
@@ -21,7 +22,7 @@ class DatabaseSeeder extends Seeder
         Employee::factory(10)->create();
         SocialLink::factory(10)->create();
         Subscribe::factory(10)->create();
-
+        Product::factory(10)->create();
 
     }
 }

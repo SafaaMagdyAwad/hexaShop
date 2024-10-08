@@ -8,7 +8,6 @@
         <ul>
             <li><a href="{{ route('about') }}">About Us</a></li>
             <li><a href="{{ route('products') }}">Products</a></li>
-            {{-- <li><a href="{{ route('singleProduct') }}">Single Product</a></li> --}}
             <li><a href="{{ route('contact') }}">Contact Us</a></li>
         </ul>
     </li>

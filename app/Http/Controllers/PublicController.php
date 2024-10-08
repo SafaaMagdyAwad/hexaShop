@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use App\Models\Employee;
+use App\Models\Product;
 use App\Models\Subscribe;
 use Illuminate\Http\Request;
 
@@ -17,13 +18,17 @@ class PublicController extends Controller
         return view('contact');
     }
     public function index(){
-        return view('index');
+        $menProducts=Product::where('isPublished',1)->where('category','Men')->get();
+        $wemenProducts=Product::where('isPublished',1)->where('category','Wemen')->get();
+        $kidsProducts=Product::where('isPublished',1)->where('category','Kid')->get();
+        $accessories=Product::where('isPublished',1)->where('category','Accessories')->get();
+        return view('index',compact('menProducts','wemenProducts','kidsProducts','accessories'));
     }
     public function products(){
         return view('products');
     }
-    public function singleProduct(){
-        return view('single-product');
+    public function singleProduct(Product $product){
+        return view('single-product',compact($product));
     }
     public function subscribe(Request $request){
         $data=$request->validate([
