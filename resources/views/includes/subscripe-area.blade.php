@@ -1,10 +1,4 @@
   <!-- ***** Subscribe Area Starts ***** -->
-  @if (session('success'))
-      <div class="alert alert-success">
-          {{ session('success') }}
-      </div>
-  @endif
-  
   <div class="subscribe">
       <div class="container">
           <div class="row">

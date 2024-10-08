@@ -12,7 +12,7 @@
                                 <a href="{{ route('products') }}">Purchase Now!</a>
                             </div>
                         </div>
-                        <img src="assets/images/left-banner-image.jpg" alt="">
+                        <img src="{{ asset('assets/images/left-banner-image.jpg') }}" alt="">
                     </div>
                 </div>
             </div>

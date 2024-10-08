@@ -4,11 +4,13 @@
 @include('includes.head')
 
 <body>
-    @include('includes.preloader')
-
+    {{-- @include('includes.preloader') --}}
+    
     @yield('content')
 
+    
     @include('includes.footer')
+    @include('includes.alert')
     @include('includes.script')
 </body>
 
