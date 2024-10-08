@@ -9,7 +9,7 @@
                             <h4>We Are Hexashop</h4>
                             <span>Awesome, clean &amp; creative HTML5 Template</span>
                             <div class="main-border-button">
-                                <a href="#">Purchase Now!</a>
+                                <a href="{{ route('products') }}">Purchase Now!</a>
                             </div>
                         </div>
                         <img src="assets/images/left-banner-image.jpg" alt="">
@@ -32,11 +32,11 @@
                                             <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
                                             </p>
                                             <div class="main-border-button">
-                                                <a href="#">Discover More</a>
+                                                <a href="{{ route('products') }}">Discover More</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="assets/images/baner-right-image-01.jpg">
+                                    <img src="{{ asset('assets/images/baner-right-image-01.jpg') }}">
                                 </div>
                             </div>
                         </div>
@@ -53,11 +53,11 @@
                                             <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
                                             </p>
                                             <div class="main-border-button">
-                                                <a href="#">Discover More</a>
+                                                <a href="{{ route('products') }}">Discover More</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="assets/images/baner-right-image-02.jpg">
+                                    <img src="{{ asset('assets/images/baner-right-image-02.jpg') }}">
                                 </div>
                             </div>
                         </div>
@@ -74,11 +74,11 @@
                                             <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
                                             </p>
                                             <div class="main-border-button">
-                                                <a href="#">Discover More</a>
+                                                <a href="{{ route('products') }}">Discover More</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="assets/images/baner-right-image-03.jpg">
+                                    <img src="{{ asset('assets/images/baner-right-image-03.jpg') }}">
                                 </div>
                             </div>
                         </div>
@@ -95,11 +95,11 @@
                                             <p>Lorem ipsum dolor sit amet, conservisii ctetur adipiscing elit incid.
                                             </p>
                                             <div class="main-border-button">
-                                                <a href="#">Discover More</a>
+                                                <a href="{{ route('products') }}">Discover More</a>
                                             </div>
                                         </div>
                                     </div>
-                                    <img src="assets/images/baner-right-image-04.jpg">
+                                    <img src="{{ asset('assets/images/baner-right-image-04.jpg') }}">
                                 </div>
                             </div>
                         </div>

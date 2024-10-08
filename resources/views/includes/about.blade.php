@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-image">
-                        <img src="assets/images/about-left-image.jpg" alt="">
+                        <img src="{{ asset('assets/images/about-left-image.jpg') }}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">

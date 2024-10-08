@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Employee;
+use App\Models\JobData;
+use App\Models\SocialLink;
+use App\Models\Subscribe;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -13,11 +17,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        JobData::factory(10)->create();
+        Employee::factory(10)->create();
+        SocialLink::factory(10)->create();
+        Subscribe::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-        ]);
+
     }
 }

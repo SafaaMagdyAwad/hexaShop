@@ -12,3 +12,4 @@ Route::get('contact',[PublicController::class,'contact'])->name('contact');
 Route::get('index',[PublicController::class,'index'])->name('index');
 Route::get('products',[PublicController::class,'products'])->name('products');
 Route::get('single-product',[PublicController::class,'singleProduct'])->name('singleProduct');
+Route::post('subscribe',[PublicController::class,'subscribe'])->name('subscribe');

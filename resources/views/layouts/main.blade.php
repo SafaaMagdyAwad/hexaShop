@@ -5,6 +5,7 @@
 
 <body>
     @include('includes.preloader')
+
     @yield('content')
 
     @include('includes.footer')
