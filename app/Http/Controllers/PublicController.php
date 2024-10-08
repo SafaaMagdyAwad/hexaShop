@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use App\Models\Employee;
 use App\Models\Subscribe;
 use Illuminate\Http\Request;
@@ -31,5 +32,14 @@ class PublicController extends Controller
         ]);
         Subscribe::create($data);
         return redirect()->back()->with('success','you have subscribed Successfull!');
+    }
+    public function contactpost(Request $request){
+        $data=$request->validate([
+            'name'=>'required|string',
+            'email'=>'required|email|unique:subscribes,email',
+            'message'=>'required|string',
+        ]);
+        Contact::create($data);
+        return redirect()->back()->with('success','Contact message was sent successfull!');
     }
 }
