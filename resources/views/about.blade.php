@@ -4,7 +4,10 @@
         @include('includes.pagesnav')
     @endpush
     @include('includes.header')
-    @include('includes.main-banner')
+    @push('title')
+        About Our Company
+    @endpush
+    @include('includes.page-banner')
     @include('includes.about')
     @include('includes.our-team')
     @include('includes.our-service')

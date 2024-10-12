@@ -4,8 +4,10 @@
         @include('includes.pagesnav')
     @endpush
     @include('includes.header')
-    @include('includes.main-banner')
-    
+    @push('title')
+    Contact Us
+    @endpush
+@include('includes.page-banner')
     @include('includes.contact-area')
     @include('includes.subscripe-area')
 @endsection

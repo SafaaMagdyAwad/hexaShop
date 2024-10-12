@@ -15,7 +15,7 @@
             <div class="col-lg-12">
                 <div class="men-item-carousel">
                     <div class="owl-men-item owl-carousel">
-                        @foreach ($menProducts as $product)
+                        @foreach ($products['menProducts'] as $product)
                         <div class="item">
                             <div class="thumb">
                                 <div class="hover-content">

@@ -19,7 +19,7 @@
                             href="https://paypal.me/templatemo" target="_blank">support us</a> a little via
                         PayPal. Please also tell your friends about our great website. Thank you.</p>
                     <div class="main-border-button">
-                        <a href="products.html">Discover More</a>
+                        <a href="{{ route('products') }}">Discover More</a>
                     </div>
                 </div>
             </div>

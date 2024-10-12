@@ -1,11 +1,11 @@
-   <!-- ***** Product Area Starts ***** -->
-   <section class="section" id="product">
+  <!-- ***** Product Area Starts ***** -->
+  <section class="section" id="product">
     <div class="container">
         <div class="row">
             <div class="col-lg-8">
             <div class="left-images">
-                <img src="assets/images/single-product-01.jpg" alt="">
-                <img src="assets/images/single-product-02.jpg" alt="">
+                <img src="{{ asset('assets/images/single-product-01.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/single-product-02.jpg') }}" alt="">
             </div>
         </div>
         <div class="col-lg-4">

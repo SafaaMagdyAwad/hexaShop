@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         Employee::factory(10)->create();
         SocialLink::factory(10)->create();
         Subscribe::factory(10)->create();
-        Product::factory(10)->create();
+        Product::factory(40)->create();
 
     }
 }

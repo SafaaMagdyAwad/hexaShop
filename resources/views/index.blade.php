@@ -6,7 +6,7 @@
 @endpush
 @include('includes.header')
 @include('includes.main-banner')
-@include('includes.men-area')
+@include('includes.men-area'){{-- done --}}
 @include('includes.women-area')
 @include('includes.kids-area')
 @include('includes.explore-area')
